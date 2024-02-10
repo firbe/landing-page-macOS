@@ -1,67 +1,47 @@
 body {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
-.section1, footer {
-    background-color: #1F2937;
+header, .section1, footer {
+    background-color: #1f2937;
 }
 
-.hero_main_text, .header_logo {
-    color: #F9FAF8;
-    font-family: 'robot bold', sans-serif;
-}
-
-.hero_main_text {
+.s1b1_title {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
+    color: #f9faf8;
 }
 
-.hero_sub_text, a {
+.s1b1_subtext, .header_links {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb;
 }
 
 .header_logo {
     font-size: 24px;
-    font-weight: bolder;
+    color: #f9faf8;
 }
 
 button, .section4 {
-    background-color: #3882F6;
+    background-color: #3882f6;
 }
 
-.information {
+.s2b1_title {
     font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .section3 {
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
 }
 
-.quote {
+.s3_quote {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
-    color: #1F2937;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 150px 0px;
-}
-
-ul {
-    padding: 0;
-}
-
-a {
-    padding-left: 50px;
+    color: #1f2937;
 }
