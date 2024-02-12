@@ -49,3 +49,36 @@ button, .section4 {
 }
 
 /*Add user styles here*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+
+.header_links {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px 100px;
+}
+
+.s1_box1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 5;
+}
+
+.s1_box2 {
+    display: flex;
+    flex-grow: 2;
+    align-self: center;
+}
